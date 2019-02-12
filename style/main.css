@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    }
+*{
+    background-color: #666;
+}
+div{outline: 1px solid black;}
+
+div{
+    text-align: center;
+}
+
+main {
+	width: 480px;
+}
