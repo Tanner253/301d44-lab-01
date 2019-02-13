@@ -1,5 +1,6 @@
 
 #a{
+    align-self: auto;
 	background-color: #333;
 	width: 480px;
     height: 70px;
@@ -7,6 +8,7 @@
 }
 
 #b{
+    align-self: auto;
 	background-color: #555;
 	width: 480px;
     height: 150px;
@@ -14,6 +16,7 @@
     
 }
 #c{
+    align-self: auto;
     background-color: #333;
     width: 480px;
     height:125px;
@@ -21,6 +24,7 @@
     
 }
 #d{
+    align-self: auto;
     background-color: #555;
     width: 480px;
     height:125px;
@@ -30,119 +34,41 @@
 #efgh{
     width: 480px;
     height: 500px;
+    display:flex;
+    flex-wrap: wrap;
     
 }
 #e{
+
+    align-self: auto;
     background-color: red;
-    float:left;
+   
     width: 240px;
     height: 250px;
     line-height:250px;
 }
 #f{ 
+    align-self: auto;
     background-color:blue;
-    float:left;
+   
     width: 240px;
     height: 250px;
     line-height:250px;
 }
 #g{ 
+    align-self: auto;
     background-color:purple;
-    float:left;
+   
     width: 240px;
     height: 250px;
     line-height:250px;
 }
 #h{ 
+    align-self: auto;
     background-color:orange;
-    float:left;
+   
     width: 240px;
     height: 250px;
     line-height:250px;
 }
 
-@media screen and (min-width: 768px){
-    main{
-        width:960px;
-        margin:0px auto;
-    }
-    #a{
-        background-color: white;
-        width: 960px;
-        height: 100px;
-        line-height: 100px;
-    }
-    #bsec{
-        float:left;
-    }
-    #b{
-        background-color:magenta;
-        width: 200px;
-        height: 600px;
-        line-height: 600px;
-    }
-    #cd {
-        background-color: yellow;
-        width: 760px;
-        float:left;
-    }
-    
-    #c{
-        background-color: brown;
-        width: 380px;
-        height:200px;
-        line-height:200px;
-        float:left;  
-    }
-    #d{
-        background-color: blue;
-        width: 380px;
-        height:200px;
-        line-height:200px;
-        float:left;
-    }
-    #efgh{
-        float:left;
-        width: 760px;
-        height: 250px;
-    }
-    #e{
-        background-color: green;
-        float:left;
-        width: 190px;
-        height: 250px;
-        line-height:250px;
-    }
-    #f{ 
-        background-color: green;
-        float:left;
-        width: 190px;
-        height: 250px;
-        line-height:250px;
-    }
-    #g{ 
-        background-color: green;
-        float:left;
-        width: 190px;
-        height: 250px;
-        line-height:250px;
-    }
-    #h{ 
-        background-color: green;
-        float:left;
-        width: 190px;
-        height: 250px;
-        line-height:250px;
-    }
-    #foot{
-
-        float:left;
-    }
-    #i{
-    background-color: rgb(133, 33, 33);
-    width:760px;
-    height: 150px;
-    line-height:150px;
-    
-}
-}
