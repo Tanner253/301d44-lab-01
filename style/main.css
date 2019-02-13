@@ -4,12 +4,17 @@
 *{
     background-color: #666;
 }
+main{
+    width: 480px;
+    margin: 0px auto;
+    display:flex;
+    flex-wrap: wrap;
+    
+    
+}
 div{outline: 1px solid black;}
 
 div{
     text-align: center;
 }
 
-main {
-	width: 480px;
-}
